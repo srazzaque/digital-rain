@@ -30,7 +30,9 @@ var famous = {
         "EventEmitter": function () {},
         "EventHandler": function () {},
         "Group": function () {},
-        "Modifier": function () {},
+        "Modifier": {
+	    "opacityFrom" : function () {}
+	},
         "OptionsManager": function () {},
         "RenderNode": {
 	    "add" : function () {}
@@ -39,7 +41,8 @@ var famous = {
         "SpecParser": function () {},
         "Surface": {
 	    "on" : function () {},
-	    "setClasses" : function () {}
+	    "setClasses" : function () {},
+	    "setContent" : function () {}
 	},
         "Transform": {
             "precision": {},
@@ -254,7 +257,8 @@ var famous = {
         "SpringTransition": function () {},
         "Transitionable": {
 	    "set" : function () {},
-	    "get" : function () {}
+	    "get" : function () {},
+	    "isActive" : function () {}
 	},
         "TransitionableTransform": function () {},
         "TweenTransition": function () {},
